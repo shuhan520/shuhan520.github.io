@@ -1,21 +1,3 @@
-/* 页脚透明 */
-#footer{
-  background: transparent!important;
-}
-/*夜间模式伪类遮罩层透明*/
-[data-theme="dark"]
-  #footer::before{
-      background: transparent!important;
-    }
-[data-theme="dark"]
-  #page-header::before{
-    background: transparent!important;
-    }
-/* 首页文章卡片 */
-#recent-posts > .recent-post-item{
-    background:rgba(255, 255, 255, 0.9);
-}
-/* 首页侧栏卡片 */
 @font-face{
   font-family:'HackFont' ;  /* 字体名自定义即可 */
   src:url('/fonts/ZhuZiAWan.woff2'); /* 字体文件路径 */
@@ -25,7 +7,6 @@
 *{
   font-family: 'HackFont', sans-serif;
 }
-
 
 #footer{
   opacity: 0.5;
