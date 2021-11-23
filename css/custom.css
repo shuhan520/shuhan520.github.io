@@ -30,14 +30,14 @@
     }
 [data-theme="dark"]
   #web_bg{
-    background: url(https://i.loli.net/2021/11/18/dpuPTSNZXzUJ16K.jpg);
+    background: url(https://sm.ms/image/GfuiTVkDQxE6dSz);
     /*重新定义background会导致原有定位属性失效，所以也需要再声明一次加权的定位属性*/
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     }
 #web_bg{
-  background: url(https://i.loli.net/2021/11/18/dpuPTSNZXzUJ16K.jpg);
+  background: url(https://sm.ms/image/GfuiTVkDQxE6dSz);
   /*重新定义background会导致原有定位属性失效，所以也需要再声明一次加权的定位属性*/
   background-position: center !important;
   background-size: cover !important;
